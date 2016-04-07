@@ -60,10 +60,10 @@ system.method.set = group.seeding.ratio.command, d.close=
 system.method.set_key = event.download.finished,move_complete,"execute=mv,-n,$d.get_base_path=,./unsorted/;d.set_directory=./unsorted/"
 
 # Port range to use for listening.
-port_range = 33101-33199
+port_range = 33101-33101
 
 # Start opening ports at a random position within the port range.
-port_random = yes
+port_random = no
 
 # Encryption options, set to none (default) or any combination of the following:
 # allow_incoming, try_outgoing, require, require_RC4, enable_retry, prefer_plaintext
