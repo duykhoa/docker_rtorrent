@@ -1,3 +1,4 @@
+## NOT WORKING
 ### rtorrent docker file
 
 I build my own Docker for rtorrent download, using alpine linux, pretty cool leh.
